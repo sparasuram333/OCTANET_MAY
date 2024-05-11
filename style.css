@@ -1,0 +1,315 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+
+    width: 100%;
+    min-height:100vh ;
+    color: aliceblue;
+    
+    
+}
+
+nav{
+    padding: 15px;
+    
+}
+main{
+    .box1{
+        border: 1px solid white;
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-man-on-a-mountain-starry-sky-wallpaper-for-mobile-image_2936450.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        width: 25%;
+        height:50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #ffffff;
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .box21{
+        border: 1px solid white;
+        float:left;
+        width: 25%;
+        height: 50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-image: url('https://images3.alphacoders.com/135/1355524.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        width: 25%;
+        height:50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #ffffff;
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .box22{
+        border: 1px solid white;
+        background-image: url('https://images.alphacoders.com/133/thumb-350-1330483.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        width: 25%;
+        height:50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #ffffff;
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+        }
+        
+        float:left;
+        width: 25%;
+        height: 50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .box3{
+        background-image: url('https://images.unsplash.com/photo-1568528139106-c295280e4757?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW4lMjBhdCUyMG5pZ2h0fGVufDB8fDB8fHww');
+        border: 1px solid white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        width: 25%;
+        height:50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #ffffff;
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+        }
+        
+        float:left;
+        width: 25%;
+        height: 50vh;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+}
+
+    footer{
+        background-color: #3e545e;
+        margin-top: 0px;
+        padding: 7px;
+        padding-top: 3px;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+/* large devices */
+@media only screen and (min-width:789px){
+    header{
+        background-image: url('t6.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding: 50px;
+       
+    }
+    nav{
+   
+        
+        background-color: rgba(0, 0, 0, 0.945);
+        padding: 15px;
+        width: 100%;
+        height: 100px;
+
+        
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li a:link,
+    nav ul li a:visited{
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        float:left;
+        color: #ffffff;
+        padding-top: 20px;
+        transition: background-color 0.3s;
+        font-size: 30px;
+        font-weight: 500; 
+        border-radius: 30%;
+        transition: background-color 0.4s;
+        padding-bottom: 0px;
+    }
+    nav ul li a:hover{
+        background-color: rgb(192, 61, 61);
+        border-radius: 30%;
+        padding-bottom:2px ;
+        
+    }
+      
+          
+    
+   
+    
+   
+}
+
+
+/* small Devices */
+@media only screen and (max-width: 790px){
+    header{
+        background-image: url('t5.jpg');
+        display: cover;
+        width: 100%;
+        min-height: 700px;
+        padding:30px ;
+        
+        
+    }
+    nav{
+   
+        margin-top: 0px;
+        background-color: #78a1b4;
+        padding: 15px;
+        
+    }
+    nav ul{
+        list-style-type: none;
+        
+    }
+    
+    nav ul li a:link,
+    nav ul li a:visited{
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        color: #ffffff;
+        padding-top: 20px;
+        transition: background-color 0.3s;
+        font-size: 30px;
+        font-weight: 500;
+
+    }
+    nav ul li a:hover{
+        background-color: #d17131fb;
+        color: wheat;
+        font-size: 1000;
+        
+        
+    }
+    nav ul a{
+        width: 100%;
+        
+    }
+    main{
+        padding: 15px;
+        
+        min-height: 80vh;
+        .box1{
+            background-image: url('t4.jpg');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            h2{
+                color: #ffffff;
+                padding: 20px;
+            }
+            p{
+                color: #ffffff;
+                padding-left:20px
+            }
+            margin-bottom: 15px;
+        }
+        .box21{
+            background-image: url('t3.jpg');
+            background-size:  cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            h2{
+                color: #ffffff;
+                padding: 20px;
+            }
+            p{
+                color: #ffffff;
+                padding-left:20px
+            }
+            margin-bottom: 15px;
+
+        }
+        .box22{
+           
+            background-image: url('t2.jpg.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            h2{
+                color: #ffffff;
+                padding: 20px;
+            }
+            p{
+                color: #ffffff;
+                padding-left:20px
+            }
+            margin-bottom: 15px;
+
+            
+        }
+        .box3{
+            background-image: url('t1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            h2{
+                color: #ffffff;
+                padding: 20px;
+            }
+            p{
+                color: #ffffff;
+                padding-left:20px
+            }
+
+        }
+    }
+    footer{
+        background-color: #3e545e;
+        
+        margin-top: 0px;
+        padding: 7px;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+
+}
